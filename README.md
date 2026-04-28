@@ -1,2 +1,2 @@
-# OS_Individual_assignment
-Linux_lite_os
+# Linux_lite_os
+
