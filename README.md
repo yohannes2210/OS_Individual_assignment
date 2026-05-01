@@ -9,26 +9,25 @@
 
 # Linux Lite 7.8 - InstallationLite
 
-## 📌 Overview
+## Overview
 
 The primary focus was to:
 - Install and configure Linux Lite inside **Oracle VirtualBox**
-- Explore system-level programming concepts (e.g., `pivot_root()`)
 - Understand filesystem support and virtualization techniques
 - Evaluate Linux Lite as a lightweight, beginner-friendly OS
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
-- ✅ Successfully install Linux Lite 7.8 in a virtual environment  
-- ✅ Explore supported filesystems (ext4, NTFS, FAT32, exFAT, Btrfs, ZFS, HFS+, APFS)  
-- ✅ Understand OS-level virtualization and containerization  
-- ✅ Demonstrate the lightweight nature of Linux Lite  
+-  Successfully install Linux Lite 7.8 in a virtual environment  
+-  Explore supported filesystems (ext4, NTFS, FAT32, exFAT, Btrfs, ZFS, HFS+, APFS)  
+- Understand OS-level virtualization and containerization  
+- Demonstrate the lightweight nature of Linux Lite  
 
 ---
 
-## 💻 Requirements
+##  Requirements
 
 ### Hardware (Recommended for VM)
 - Dual-core 2 GHz+ CPU
@@ -43,7 +42,7 @@ The primary focus was to:
 
 ---
 
-## 🛠️ Installation Steps (Summary)
+##  Installation Steps (Summary)
 
 1. **Download** Linux Lite ISO from the official website.
 2. **Install VirtualBox** and create a new VM:
@@ -56,47 +55,21 @@ The primary focus was to:
    - Let installer partition automatically
 5. **Reboot** and enjoy Linux Lite!
 
-> ⚠️ *Full step-by-step screenshots are included in (./os_individual_project.pdf).*
+
 
 ---
 
-## 🐞 Issues Faced & Solutions
 
-| Issue | Solution |
-|-------|----------|
-| 🐢 Linux Lite runs very slowly | Allocate 4 GB RAM & 2+ CPU cores in VM settings |
-| 💥 Installer hangs/crashes | Increase disk size (≥20 GB) and ensure ISO is not corrupted |
-| 📀 Virtual disk too small | Resize disk via VirtualBox CLI and extend partition inside Linux Lite |
+## Advantages & Disadvantages
 
----
-
-## 📁 Filesystem Support
-
-Linux Lite 7.8 natively supports:
-
-| Filesystem | Use Case | Read/Write |
-|------------|----------|-------------|
-| **ext4** | Default Linux filesystem | ✅ Full |
-| **NTFS** | Windows drives | ✅ Full (via ntfs-3g) |
-| **FAT32** | USB drives, legacy systems | ✅ Full (4GB file limit) |
-| **exFAT** | Large flash drives | ✅ Full |
-| **Btrfs** | Snapshots, RAID | ⚠️ Optional |
-| **ZFS** | Data protection, pooling | ⚠️ Optional (CDDL/GPL conflict) |
-| **HFS+** | Old macOS | ⚠️ Read-only safe |
-| **APFS** | New macOS | ❌ Read-only (third-party tools) |
-
----
-
-## ⚖️ Advantages & Disadvantages
-
-### ✅ Advantages
+### Advantages
 - Extremely lightweight (runs on 1 GB RAM)
 - Beginner-friendly Windows-like UI
 - Free & open-source
 - Great for reviving old hardware
 - Pre-installed essential apps
 
-### ❌ Disadvantages
+###  Disadvantages
 - Limited advanced features
 - Smaller community than Ubuntu
 - Not ideal for gaming or heavy video editing
@@ -104,7 +77,7 @@ Linux Lite 7.8 natively supports:
 
 ---
 
-## 🔮 Future Recommendations
+## Future Recommendations
 
 - Improve **ZFS/Btrfs** integration for advanced users  
 - Add better **APFS** support for macOS interoperability  
@@ -113,7 +86,7 @@ Linux Lite 7.8 natively supports:
 
 ---
 
-## 🧠 Virtualization Insights
+## Virtualization Insights
 
 - Used **Oracle VirtualBox** to host Linux Lite as a guest OS  
 - Virtualization enables isolated testing of system calls without risking the host  
@@ -121,3 +94,4 @@ Linux Lite 7.8 natively supports:
 
 ---
 
+## detailed points are included with Full step-by-step screenshots are included in (./os_individual_project.pdf)
